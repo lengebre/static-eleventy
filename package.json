@@ -1,0 +1,30 @@
+{
+  "name": "static-eleventy",
+  "version": "0.0.1",
+  "description": "Static website generated with Eleventy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production eleventy",
+    "dev": "eleventy --serve",
+    "watch": "eleventy --watch",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lengebre/static-eleventy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lengebre/static-eleventy/issues"
+  },
+  "homepage": "https://github.com/lengebre/static-eleventy#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "luxon": "^2.1.1",
+    "node-fetch": "^3.1.0"
+  }
+}

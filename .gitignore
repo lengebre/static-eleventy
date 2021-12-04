@@ -1,3 +1,10 @@
+# Eleventy
+_site
+dist
+
+# Netlify
+.netlify
+
 # Logs
 logs
 *.log
